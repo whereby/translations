@@ -50,9 +50,13 @@ BreakoutStage-broadcast-desc = Broadcasting audio across all groups
 BreakoutStage-button-join-stage = Go on stage
 BreakoutStage-button-leave-stage = Get off stage
 
+# When you want to enter the group <img src="https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png">
 BreakoutStartNotification-btn-accept = Enter group
+# Don't enter group anyway <https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png> URL: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
 BreakoutStartNotification-btn-dismiss = Dismiss
+# Image: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
 BreakoutStartNotification-text = You’ve been assigned <strong>{$groupName}</strong>
+# Image: <a href="https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png">The image</a>
 BreakoutStartNotification-title = Breakout session started
 
 # Shown top left when inside a group and session has ended
