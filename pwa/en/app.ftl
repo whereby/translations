@@ -7,6 +7,8 @@ BankIdSettings-header = Level4 authentication
 
 BaseAlert-close =
     .title = Close
+BaseAlert-close2 =
+    .title = Close
 
 BreakoutDragDropBanner-dismiss-btn = Got it
 BreakoutDragDropBanner-text = Drag to move guests between lists
