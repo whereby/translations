@@ -4,9 +4,6 @@ BankIdSettings-authentication-required-desc = Gäste müssen sich über ID-porte
 BankIdSettings-header = Level 4-Authentifizierung
 BaseAlert-close =
     .title = Schließen
-
-## Image: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
-
 BreakoutDragDropBanner-dismiss-btn = OK
 BreakoutDragDropBanner-text = Ziehe deine Gäste zwischen den Listen hin und her
 BreakoutEdit-amount-label = Gruppenanzahl
@@ -323,7 +320,8 @@ KnockRejected-dialog-description = Du wurdest in diesen Raum eingeladen? Kontakt
 KnockRejected-dialog-title = Der Gastgeber hat deine Zutrittsanfrage abgelehnt
 KnockResponse-message-title = Nachricht von { $displayName }
 KnockResponse-message-title-anonymous = Nachricht vom Gastgeber
-KnockResponse-message-title-cat = Der CAT!
+# Image: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
+KnockResponse-message-title-cat = Dist is die CAT!
 LeavePage-embedded-desc = Fertig! Wir wünschen dir noch einen schönen Tag!
 LeavePage-embedded-neutral-desc = Das Video-Meeting wurde beendet. Du kannst dein Browserfenster jetzt sicher schließen
 LeavePage-embedded-title = Du hast den Raum verlassen
