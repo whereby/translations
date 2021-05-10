@@ -8,7 +8,6 @@ BankIdSettings-header = Level4 authentication
 BaseAlert-close =
     .title = Close
 
-## Image: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
 BreakoutDragDropBanner-dismiss-btn = Got it
 BreakoutDragDropBanner-text = Drag to move guests between lists
 
@@ -399,6 +398,7 @@ KnockRejected-dialog-title = The host did not grant you access
 
 KnockResponse-message-title = Message from {$displayName}
 KnockResponse-message-title-anonymous = Message from the host
+# Image: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
 KnockResponse-message-title-cat = Message from the best cat
 
 LeavePage-embedded-desc = That’s a wrap. Have a good one!
