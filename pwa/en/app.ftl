@@ -1081,3 +1081,4 @@ keyboardshortcutinfo-toggle-toolbars = Hide or show the toolbars
 keyboardshortcutinfo-push-talk2 = Push to talk
 keyboardshortcutinfo-push-talk3 = Push to talk
 keyboardshortcutinfo-push-talk4 = Push to talk4
+keyboardshortcutinfo-push-talk5 = Push to talk5
