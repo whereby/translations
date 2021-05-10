@@ -4,6 +4,9 @@ BankIdSettings-authentication-required-desc = Gäste müssen sich über ID-porte
 BankIdSettings-header = Level 4-Authentifizierung
 BaseAlert-close =
     .title = Schließen
+
+## Image: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
+
 BreakoutDragDropBanner-dismiss-btn = OK
 BreakoutDragDropBanner-text = Ziehe deine Gäste zwischen den Listen hin und her
 BreakoutEdit-amount-label = Gruppenanzahl
@@ -32,13 +35,9 @@ BreakoutInfoDialog-title = Arbeitsgruppen
 BreakoutStage-broadcast-desc = Audio-Übertragung an alle Gruppen senden
 BreakoutStage-button-join-stage = Bühne betreten
 BreakoutStage-button-leave-stage = Bühne verlassen
-# When you want to enter the group <img src="https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png">
 BreakoutStartNotification-btn-accept = Gruppe betreten
-# Don't enter group anyway <https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png> URL: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
 BreakoutStartNotification-btn-dismiss = Verwerfen
-# Image: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
 BreakoutStartNotification-text = Breakout-Sitzung läuft
-# Image: <a href="https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png">The image</a>
 BreakoutStartNotification-title = Breakout-Sitzung hat begonnen
 BreakoutStopNotification-title = Breakout-Sitzung wurde beendet
 BroadcastChatNotification-title = Broadcast-Nachricht von { $senderName }
@@ -324,6 +323,7 @@ KnockRejected-dialog-description = Du wurdest in diesen Raum eingeladen? Kontakt
 KnockRejected-dialog-title = Der Gastgeber hat deine Zutrittsanfrage abgelehnt
 KnockResponse-message-title = Nachricht von { $displayName }
 KnockResponse-message-title-anonymous = Nachricht vom Gastgeber
+KnockResponse-message-title-cat = Der CAT!
 LeavePage-embedded-desc = Fertig! Wir wünschen dir noch einen schönen Tag!
 LeavePage-embedded-neutral-desc = Das Video-Meeting wurde beendet. Du kannst dein Browserfenster jetzt sicher schließen
 LeavePage-embedded-title = Du hast den Raum verlassen
@@ -859,7 +859,6 @@ VideoControls-leave-button-menu-leave = Raum verlassen
 VideoControls-leave-button-menu-leave-group = Gruppe verlassen
 VideoControls-people-button = Leute
 VideoControls-people-button-menu-breakout-groups = Breakout-Gruppen
-VideoControls-people-button-menu-breakout-groups-beta-badge = Beta
 VideoControls-people-button-menu-breakout-groups-end = Breakout-Session beenden
 VideoControls-people-button-menu-breakout-groups-new-badge = Neu
 VideoControls-people-button-menu-people = Teilnehmer
