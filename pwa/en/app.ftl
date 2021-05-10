@@ -7,9 +7,8 @@ BankIdSettings-header = Level4 authentication
 
 BaseAlert-close =
     .title = Close
-BaseAlert-close2 =
-    .title = Close
 
+## Image: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
 BreakoutDragDropBanner-dismiss-btn = Got it
 BreakoutDragDropBanner-text = Drag to move guests between lists
 
@@ -50,13 +49,9 @@ BreakoutStage-broadcast-desc = Broadcasting audio across all groups
 BreakoutStage-button-join-stage = Go on stage
 BreakoutStage-button-leave-stage = Get off stage
 
-# When you want to enter the group <img src="https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png">
 BreakoutStartNotification-btn-accept = Enter group
-# Don't enter group anyway <https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png> URL: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
 BreakoutStartNotification-btn-dismiss = Dismiss
-# Image: https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png
 BreakoutStartNotification-text = You’ve been assigned <strong>{$groupName}</strong>
-# Image: <a href="https://odin.s0.no/2016/glowing-bear-weechat-client-screenshot.png">The image</a>
 BreakoutStartNotification-title = Breakout session started
 
 # Shown top left when inside a group and session has ended
@@ -323,6 +318,8 @@ InCallSettings-pip-auto-launch-text = Launch picture-in-picture when navigating 
 InCallSettings-precall-header = Pre-call review
 InCallSettings-precall-text = Always confirm your device settings before joining meetings
 InCallSettings-preferences-note = Preferences will be saved on this device only for meetings on {$organizationDomain}
+InCallSettings-reducevisualeffects-header = Reduce visual effects
+InCallSettings-reducevisualeffects-text = Disables all potentially expensive visual effects such as blurs, shadows and rounded corners
 InCallSettings-reload = Reload to update
 InCallSettings-room-tab = Room
 InCallSettings-section-label-device = Device preferences
@@ -402,6 +399,7 @@ KnockRejected-dialog-title = The host did not grant you access
 
 KnockResponse-message-title = Message from {$displayName}
 KnockResponse-message-title-anonymous = Message from the host
+KnockResponse-message-title-cat = Message from the best cat
 
 LeavePage-embedded-desc = That’s a wrap. Have a good one!
 LeavePage-embedded-neutral-desc = The video meeting has ended. You can safely close this browser window.
@@ -698,7 +696,7 @@ ProXLBanner-button = Get add-on
 ProXLBanner-subtitle = You can now host up to 50 guests with the XL Rooms add-on.
 ProXLBanner-title = Expecting a crowd?
 
-Public-Profile-localtime-label = Local Time
+Public-Profile-localtime-label = Local time
 Public-Profile-view-profile = View Profile
 
 QuotaExceededAlert-dismiss = Dismiss
@@ -801,6 +799,21 @@ RoomLeftUpsell-free-feature-group-meeting = 45 minutes group meetings
 RoomLeftUpsell-free-feature-personal-meeting = Unlimited 1:1 meetings
 RoomLeftUpsell-free-feature-user = Host up to 50 participants
 RoomLeftUpsell-free-header = Host your own free meetings with Whereby
+RoomLeftUpsell-license-based-business-banner-header = Try the best of Whereby free for 14 days
+RoomLeftUpsell-license-based-business-banner-tagline = From USD 9.99 /mo after trial
+RoomLeftUpsell-license-based-business-feature-hd = Higher-quality meetings with HD mode
+RoomLeftUpsell-license-based-business-feature-priority = Priority support
+RoomLeftUpsell-license-based-business-tagline = A flexible plan for growing teams
+RoomLeftUpsell-license-based-free-feature-group-meeting = 45 minutes group meetings
+RoomLeftUpsell-license-based-free-feature-personal-meeting = Unlimited 1:1 meetings
+RoomLeftUpsell-license-based-free-feature-user = Host up to 100 participants
+RoomLeftUpsell-license-based-pro-banner-cta = Try it now
+RoomLeftUpsell-license-based-pro-cta = Try it now
+RoomLeftUpsell-license-based-pro-feature-branding = Company branding
+RoomLeftUpsell-license-based-pro-feature-group-meeting = Unlimited group meetings
+RoomLeftUpsell-license-based-pro-feature-recording = Unlimited recording
+RoomLeftUpsell-license-based-pro-feature-subdomain = Custom subdomains
+RoomLeftUpsell-license-based-pro-tagline = For power users and smaller teams
 RoomLeftUpsell-price-from = From
 RoomLeftUpsell-price-including-taxes = Inc. applicable taxes
 RoomLeftUpsell-price-per-month = mo
@@ -1027,7 +1040,6 @@ VideoControls-leave-button-menu-leave = Leave room
 VideoControls-leave-button-menu-leave-group = Leave group
 VideoControls-people-button = People
 VideoControls-people-button-menu-breakout-groups = Breakout Groups
-VideoControls-people-button-menu-breakout-groups-beta-badge = Beta
 VideoControls-people-button-menu-breakout-groups-end = End breakout session
 VideoControls-people-button-menu-breakout-groups-new-badge = New
 VideoControls-people-button-menu-people = People
@@ -1078,7 +1090,3 @@ keyboardshortcutinfo-toggle-room-list = Show or hide room list
 keyboardshortcutinfo-toggle-screenshare = Start or stop sharing your screen
 keyboardshortcutinfo-toggle-shortcuts = Show or hide this dialog
 keyboardshortcutinfo-toggle-toolbars = Hide or show the toolbars
-keyboardshortcutinfo-push-talk2 = Push to talk
-keyboardshortcutinfo-push-talk3 = Push to talk
-keyboardshortcutinfo-push-talk4 = Push to talk4
-keyboardshortcutinfo-push-talk5 = Push to talk5
