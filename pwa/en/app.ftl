@@ -1079,3 +1079,4 @@ keyboardshortcutinfo-toggle-screenshare = Start or stop sharing your screen
 keyboardshortcutinfo-toggle-shortcuts = Show or hide this dialog
 keyboardshortcutinfo-toggle-toolbars = Hide or show the toolbars
 keyboardshortcutinfo-push-talk2 = Push to talk
+keyboardshortcutinfo-push-talk3 = Push to talk
