@@ -6,6 +6,7 @@ BankIdSettings-authentication-required-desc = Guests need to authenticate throug
 BankIdSettings-header = Level4 authentication
 
 BaseAlert-close2 = Close2
+BaseAlert-close-odi = Close Odin
 BaseAlert-close =
     .title = Close
 
