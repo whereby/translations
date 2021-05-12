@@ -5,6 +5,7 @@ BankIdSettings-authentication-not-required-desc = No authentication is required 
 BankIdSettings-authentication-required-desc = Guests need to authenticate through ID-porten to enter locked rooms
 BankIdSettings-header = Level4 authentication
 
+BaseAlert-close2 = Close2
 BaseAlert-close =
     .title = Close
 
