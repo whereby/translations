@@ -9,7 +9,13 @@ BreakoutDragDropBanner-text = Ziehe deine Gäste zwischen den Listen hin und her
 BreakoutEdit-amount-label = Gruppenanzahl
 BreakoutEdit-assign-all-label = Alle zuweisen
 BreakoutEdit-back-button =
-    .title = Zurück zu den Teilnehmern
+    .backTooltip = Zurück zu den Teilnehmern
+BreakoutEdit-default-group-name = x
+BreakoutEdit-group-header-caption =
+    xx{ $nParticipants ->
+        [one] x
+       *[other] x
+    }
 BreakoutEdit-shuffle-label = Mischen
 BreakoutEdit-start-button = Breakout-Sitzungen beginnen
 BreakoutEdit-title = Breakout-Gruppen
@@ -36,7 +42,17 @@ BreakoutStartNotification-btn-accept = Gruppe betreten
 BreakoutStartNotification-btn-dismiss = Verwerfen
 BreakoutStartNotification-text = Breakout-Sitzung läuft
 BreakoutStartNotification-title = Breakout-Sitzung hat begonnen
+# Shown top left when inside a group and session has ended
+BreakoutStatusBar-title-ended = x
 BreakoutStopNotification-title = Breakout-Sitzung wurde beendet
+# Notification shown when host(s) broadcast audio to all participants across groups during breakout session
+BroadcastAudioNotification-title =
+    x{ $nOtherSenders ->
+        [0] x
+        [1] x
+        [one] x
+       *[other] x
+    }x
 BroadcastChatNotification-title = Broadcast-Nachricht von { $senderName }
 BrowserIssueNotification-text =
     In der aktuellen Version von { $browserName } kommt es häufig zu Problemen mit { $issueType ->
@@ -236,6 +252,7 @@ InCallSettings-advanced-tab = Erweitert
 InCallSettings-apply = Anwenden
 InCallSettings-branding-tab = Design
 InCallSettings-camera-header = Kamera
+InCallSettings-dialog-header = x
 InCallSettings-emoji-header = Hautfarbe für Reaktionen
 InCallSettings-emoji-text = Wähle deine bevorzugte Hautfarbe für Emojis
 InCallSettings-general-tab = Allgemein
@@ -261,6 +278,8 @@ InCallSettings-pip-auto-launch-text = Wechselt automatisch zur Bild-in-Bild-Ansi
 InCallSettings-precall-header = Einstellungen vor Meetings bestätigen
 InCallSettings-precall-text = Überprüfe und bestätige deine Geräteeinstellungen, ehe du Meetings beitrittst
 InCallSettings-preferences-note = Deine Präferenzen werden auf diesem Gerät nur für Meetings auf { $organizationDomain } gespeichert
+InCallSettings-reducevisualeffects-header = x
+InCallSettings-reducevisualeffects-text = x
 InCallSettings-reload = Einstellungen aktualisieren
 InCallSettings-room-tab = Raum
 InCallSettings-section-label-device = Geräteeinstellungen
@@ -296,6 +315,7 @@ IntegrationNotification-stop-text = Möchtest du { $title } wirklich für alle T
 IntegrationTeaser-requiresUpgrade-text = Die Integration ist für kostenpflichtige Tarife verfügbar
 IntegrationTeaser-start-button = Zusammen im Raum ansehen
 IntegrationTeaser-stop-button = Freigabe beenden
+KnockAlert-hint = x
 KnockAlert-letin = Hereinlassen
 KnockAlert-on-hold =
     { $elapsedTime ->
@@ -303,10 +323,21 @@ KnockAlert-on-hold =
         [one] Seit { $elapsedTime } Minute auf der Warteliste
        *[other] Seit { $elapsedTime } Minuten auf der Warteliste
     }
+KnockAlert-outside-organization-info =
+    { $count ->
+        [one] x
+       *[other] x
+    }x
 KnockAlert-reject = Ablehnen
 KnockAlert-respond-knocker-hint = Nicht bereit? Lass es deine Teilnehmer mit einer kurzen <strong>Reaktion</strong> wissen.
+KnockAlert-respond-knocker-hint-see-who = x
 KnockAlert-seewho = Nachsehen
 KnockAlert-title-named = { $displayName } möchte den Raum betreten
+KnockAlert-title-with-names =
+    x{ $othersCount ->
+        [one] x
+       *[other] x
+    }x
 KnockAlert-title-without-names =
     { $count } { $count ->
         [one] Person
@@ -532,6 +563,7 @@ PreCallNamePrompt-login-text = Du hast ein Konto?
 PreCallNamePrompt-name-field =
     .label = Dein Name
     .placeholder = Gib deinen Namen ein
+PreCallNamePrompt-privacy-policy-text = x
 PreCallNamePrompt-terms-of-service-text = Wenn du diesen Service nutzt, stimmst du unseren <toslink>Nutzungsbedingungen</toslink> automatisch zu.
 PreCallNamePrompt-terms-of-service-text-age-warning = Wenn du diesen Service nutzt, stimmst du unseren <toslink>Nutzungsbedingungen</toslink> automatisch zu und bestätigst, dass du mindestens 16 Jahre alt bist.
 PreCallReview-internal-server-error = Es ist ein unerwarteter Fehler aufgetreten. Bitte versuche es erneut oder kontaktiere den Rauminhaber, um dein Problem zu erklären.
@@ -560,6 +592,9 @@ PrecallIdPortenPrompt-login-button = Mit ID-porten einloggen
 PrecallIdPortenPrompt-text = Du musst deine Identität über ID-porten verifizieren, um an diesem Meeting teilzunehmen
 PrecallInstallIosApp-button = Whereby-App installieren
 PrecallMoreMenu-help = Support
+PrecallPrivacyPolicy-accept-button = x
+PrecallPrivacyPolicy-text = x
+PrecallPrivacyPolicy-title = x
 PresenterLimitReachedDialog-gotit = OK
 PresenterLimitReachedDialog-text = Es können nur { $presenterLimit } Personen gleichzeitig mit Video im Meeting sein. Versuch es später noch einmal.
 PresenterLimitReachedDialog-title = Leider kannst du deine Kamera im Moment nicht anschalten.
@@ -865,47 +900,6 @@ TimingSectionTooltip-text =
         [one] unter { $minutesLeft } Minute
        *[other] { $minutesLeft } Minuten
     } left</strong> begrenzt
-VideoControls-chat-button = Chat
-VideoControls-leave-button = Ende
-VideoControls-leave-button-menu-end-meeting = Meeting für alle beenden
-VideoControls-leave-button-menu-leave = Raum verlassen
-VideoControls-leave-button-menu-leave-group = Gruppe verlassen
-VideoControls-people-button = Leute
-VideoControls-people-button-menu-breakout-groups = Breakout-Gruppen
-VideoControls-people-button-menu-breakout-groups-end = Breakout-Session beenden
-VideoControls-people-button-menu-breakout-groups-new-badge = Neu
-VideoControls-people-button-menu-people = Teilnehmer
-VideoControls-record-button-menu-get = Deine Aufnahmen
-VideoControls-record-button-menu-header = Aufnahme
-VideoControls-record-button-menu-start = Aufnahme starten
-VideoControls-record-button-menu-stop = Aufnahme beenden
-VideoControls-record-button-start = Rec
-VideoControls-record-button-stop = Stopp
-VideoControls-share-button-menu-configure = Integrationen konfigurieren
-VideoControls-share-button-menu-screenshare = Bildschirmfreigabe
-VideoControls-share-button-menu-share-integration-about-integrations = Über Integrationen
-VideoControls-share-button-menu-share-integration-fullscreen = Vollbild
-VideoControls-share-button-menu-share-integration-maximize = Vergrößern
-VideoControls-share-button-menu-share-integration-minimize = Verkleinern
-VideoControls-share-button-menu-share-integration-stop = { $title } beenden
-VideoControls-share-button-menu-share-screen-start = Bildschirm teilen
-VideoControls-share-button-menu-share-screen-stop = Bildschirmfreigabe beenden
-VideoControls-share-button-menu-started-by = { $displayName } teilt den Bildschirm
-VideoControls-share-button-menu-started-by-you = Du teilst deinen Bildschirm
-VideoControls-share-button-start = Teilen
-VideoControls-share-button-stop = Stopp
-VideoControls-stream-button-menu-header = Streamen
-VideoControls-stream-button-menu-start = Streamen starten
-VideoControls-stream-button-menu-stop = Streaming beenden
-VideoControls-stream-button-start = Streamen
-VideoControls-toggle-cam-button = Kamera
-VideoControls-toggle-cam-button-menu-mute = Kamera ausschalten
-VideoControls-toggle-cam-button-menu-settings = Videoeinstellungen
-VideoControls-toggle-cam-button-menu-unmute = Kamera einschalten
-VideoControls-toggle-mic-button = Ton
-VideoControls-toggle-mic-button-menu-mute = Stummschalten
-VideoControls-toggle-mic-button-menu-settings = Audioeinstellungen
-VideoControls-toggle-mic-button-menu-unmute = Mikrofon einschalten
 VideoDisabledNotification-text = <strong>{ $displayName } hat deine Kamera ausgeschalten.</strong> Du kannst sie jederzeit wieder aktivieren.
 keyboardshortcutinfo-push-talk = Gedrückt halten, um zu sprechen
 keyboardshortcutinfo-toggle-cam = Videokamera ein- oder ausschalten
